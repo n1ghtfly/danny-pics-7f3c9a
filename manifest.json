@@ -1,0 +1,48 @@
+{
+  "panel": 466,
+  "count": 6,
+  "pictures": [
+    {
+      "file": "p01.jpg",
+      "w": 835,
+      "h": 466,
+      "bytes": 113181,
+      "src": "Gemini_Generated_Image_ (2).png"
+    },
+    {
+      "file": "p02.jpg",
+      "w": 835,
+      "h": 466,
+      "bytes": 93465,
+      "src": "Gemini_Generated_Image_ (3).png"
+    },
+    {
+      "file": "p03.jpg",
+      "w": 466,
+      "h": 695,
+      "bytes": 76363,
+      "src": "Gemini_Generated_Image_ (5).png"
+    },
+    {
+      "file": "p04.jpg",
+      "w": 466,
+      "h": 619,
+      "bytes": 49213,
+      "src": "Gemini_Generated_Image_ (6).png"
+    },
+    {
+      "file": "p05.jpg",
+      "w": 835,
+      "h": 466,
+      "bytes": 98544,
+      "src": "Gemini_Generated_Image_.jpg"
+    },
+    {
+      "file": "p06.jpg",
+      "w": 835,
+      "h": 466,
+      "bytes": 69658,
+      "src": "Gemini_Generated_Image_.png"
+    }
+  ]
+}

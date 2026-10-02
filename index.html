@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Danny — badge pictures</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 24px; background: #0e0e12; color: #e8e8ee;
+         font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p  { color: #9aa; margin: 0 0 20px; font-size: 14px; }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  figure { margin: 0; background: #16161c; border: 1px solid #26262e; border-radius: 12px; overflow: hidden; }
+  img { width: 100%; display: block; }
+  figcaption { padding: 8px 10px; font-size: 12px; color: #889; font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+  <h1>Danny — badge pictures</h1>
+  <p>Source images for the AMOLED badge slideshow. The badge reads
+     <a style="color:#8cf" href="manifest.json">manifest.json</a> and then fetches each JPEG.</p>
+  <div class="grid" id="grid"></div>
+<script>
+  // Built from the manifest, so adding a picture is one prep run and one commit - no edit here.
+  fetch('manifest.json')
+    .then(r => r.json())
+    .then(m => {
+      const g = document.getElementById('grid');
+      g.innerHTML = m.pictures.map(p => `
+        <figure>
+          <img src="${p.file}" alt="${p.file}" loading="lazy">
+          <figcaption>${p.file} — ${p.w}×${p.h}</figcaption>
+        </figure>`).join('');
+    })
+    .catch(() => { document.getElementById('grid').textContent = 'manifest.json not found'; });
+</script>
+</body>
+</html>
