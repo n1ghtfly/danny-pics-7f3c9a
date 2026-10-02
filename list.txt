@@ -1,7 +1,8 @@
 # 6 pictures, panel 466
-p01.jpg 113181
-p02.jpg 93465
-p03.jpg 76363
-p04.jpg 49213
-p05.jpg 98544
-p06.jpg 69658
+# <file> <bytes> <width> <height>
+p01.jpg 113181 835 466
+p02.jpg 93465 835 466
+p03.jpg 76363 466 695
+p04.jpg 49213 466 619
+p05.jpg 98544 835 466
+p06.jpg 69658 835 466
