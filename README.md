@@ -32,3 +32,15 @@ own LittleFS cache and shows them at random with a slide transition.
 | `manifest.json` | Written by the prep tool: panel size, picture count, and each file's name, dimensions and byte size |
 | `pNN.jpg` | The prepped pictures, in a stable numbered order |
 | `index.html` | Browsable contact sheet (reads the manifest; nothing to edit when pictures change) |
+
+## Rumours (`rumours/`)
+
+Short audio clips for the badge's **Rumours** app, which plays one at random.
+
+> **These are AI-generated voice parodies, made as a joke for Danny. None of the people named
+> said any of this.**
+
+- `rumours.txt` - one line per clip: `<file> <bytes> <speaker>`. The badge reads this, not JSON.
+- `rNN.mp3` - 16 kHz mono, 48 kbit/s (made by `tools/prep_rumours.py` in the badge project from
+  the originals, loudness-evened).
+- The badge downloads any clip whose size changed into its own flash, so it plays offline too.

@@ -1,0 +1,11 @@
+# Rumours for the Thanks Danny badge - AI-generated voice parody, not real statements
+# <file> <bytes> <speaker>
+r01.mp3 153134 Barack Obama
+r02.mp3 170414 Donald Trump
+r03.mp3 174086 Emmanuel Macron
+r04.mp3 148598 Giorgia Meloni
+r05.mp3 32390 Gordon Ramsay
+r06.mp3 218366 King Charles III
+r07.mp3 121598 Morgan Freeman
+r08.mp3 129806 Peter Griffin
+r09.mp3 167822 Pope Leo XIV
