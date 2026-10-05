@@ -1,48 +1,76 @@
 {
   "panel": 466,
-  "count": 6,
+  "count": 10,
   "pictures": [
     {
       "file": "p01.jpg",
       "w": 835,
       "h": 466,
-      "bytes": 113181,
-      "src": "Gemini_Generated_Image_ (2).png"
+      "bytes": 82392,
+      "src": "Gemini_Generated_Image_ (1).jpg"
     },
     {
       "file": "p02.jpg",
-      "w": 835,
-      "h": 466,
-      "bytes": 93465,
-      "src": "Gemini_Generated_Image_ (3).png"
+      "w": 466,
+      "h": 535,
+      "bytes": 73343,
+      "src": "Gemini_Generated_Image_ (2).png"
     },
     {
       "file": "p03.jpg",
-      "w": 466,
-      "h": 695,
-      "bytes": 76363,
-      "src": "Gemini_Generated_Image_ (5).png"
+      "w": 835,
+      "h": 466,
+      "bytes": 135998,
+      "src": "Gemini_Generated_Image_ (3).png"
     },
     {
       "file": "p04.jpg",
-      "w": 466,
-      "h": 619,
-      "bytes": 49213,
-      "src": "Gemini_Generated_Image_ (6).png"
+      "w": 835,
+      "h": 466,
+      "bytes": 109848,
+      "src": "Gemini_Generated_Image_ (5).png"
     },
     {
       "file": "p05.jpg",
-      "w": 835,
-      "h": 466,
-      "bytes": 98544,
-      "src": "Gemini_Generated_Image_.jpg"
+      "w": 466,
+      "h": 622,
+      "bytes": 84104,
+      "src": "Gemini_Generated_Image_ (6).png"
     },
     {
       "file": "p06.jpg",
       "w": 835,
       "h": 466,
-      "bytes": 69658,
+      "bytes": 101287,
+      "src": "Gemini_Generated_Image_.jpg"
+    },
+    {
+      "file": "p07.jpg",
+      "w": 835,
+      "h": 466,
+      "bytes": 106433,
       "src": "Gemini_Generated_Image_.png"
+    },
+    {
+      "file": "p08.jpg",
+      "w": 466,
+      "h": 622,
+      "bytes": 71507,
+      "src": "WhatsApp Image 2026-03-10 at 11.26.26.jpeg"
+    },
+    {
+      "file": "p09.jpg",
+      "w": 466,
+      "h": 624,
+      "bytes": 81728,
+      "src": "WhatsApp Image 2026-03-10 at 11.26.38.jpeg"
+    },
+    {
+      "file": "p10.jpg",
+      "w": 466,
+      "h": 466,
+      "bytes": 60566,
+      "src": "WhatsApp Image 2026-03-10 at 11.34.13.jpeg"
     }
   ]
 }
